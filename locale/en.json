@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Browser Use",
+    "description": "Playwright browser tools for DSH: scoped a11y snapshots, stable uids, resilient clicks, native downloads, console and network inspection."
+  }
+}

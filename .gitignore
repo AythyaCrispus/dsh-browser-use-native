@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+
+# Self-test artifacts (screenshots, downloads)
+artifacts/
+
+# Logs and editor/OS noise
+*.log
+.DS_Store
+Thumbs.db

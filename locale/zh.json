@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "浏览器工具",
+    "description": "DSH Playwright 浏览器工具：可裁剪/聚焦的 a11y 快照、稳定 uid、点击回退、原生下载与 console/网络检查。"
+  }
+}

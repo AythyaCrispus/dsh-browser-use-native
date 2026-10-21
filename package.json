@@ -1,0 +1,53 @@
+{
+  "name": "@local/browser-use-native",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH browser plugin: 17 Playwright browser tools running in the Host process.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "selftest.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "playwright",
+    "browser-automation",
+    "ai-agent",
+    "accessibility-tree"
+  ],
+  "license": "MIT",
+  "author": "AythyaCrispus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AythyaCrispus/dsh-browser-use-native.git"
+  },
+  "homepage": "https://github.com/AythyaCrispus/dsh-browser-use-native#readme",
+  "bugs": {
+    "url": "https://github.com/AythyaCrispus/dsh-browser-use-native/issues"
+  },
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

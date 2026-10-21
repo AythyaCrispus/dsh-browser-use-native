@@ -1,0 +1,15 @@
+- insert:
+    - id: browser-use-native
+      name: '@local/browser-use-native'
+      config:
+        # No executable path is stored here. The plugin finds an installed
+        # Chrome/Edge through Playwright's channel lookup and falls back to the
+        # Playwright-managed Chromium only when neither is available.
+        channel: chrome
+        headless: true
+        viewportWidth: 1280
+        viewportHeight: 800
+        actionTimeoutMs: 5000
+        navigationTimeoutMs: 30000
+        dialogPolicy: manual
+        dialogTimeoutMs: 5000
